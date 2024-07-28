@@ -1,0 +1,50 @@
+/* src/App.css */
+
+/* Center the title */
+.title {
+  text-align: center;
+  margin-top: 20px;
+  color: #5a189a; /* Adjust text color to contrast with the background */
+}
+
+/* Uniform image sizing */
+.card-img-top {
+  width: 100%;
+  height: 250px; /* Adjust the height as needed */
+  object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* Center the card container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Background image for the App */
+.App {
+  background-image: url('https://wallpapers.com/images/hd/fifa-background-tqq9pxlhzeue8u6w.jpg'); /* Replace with your image URL */
+  background-size: cover; /* Ensure the image covers the entire area */
+  background-position: center; /* Center the background image */
+  min-height: 100vh; /* Ensure the background covers the full viewport height */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Card styling */
+.card {
+  color: #fff; /* Set text color inside cards */
+ 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadows to the card */
+}
+
+/* Card title styling */
+.card-title {
+  color: #5a189a; 
+}
+
+/* Card text styling */
+.card-text {
+  color: #5a189a;
+}
